@@ -1,0 +1,14 @@
+import sys
+input = sys.stdin.readline
+
+# 000, 010, 111, 101 X
+
+# '?'는 2개, '??'는 4개, "???"부터는 다 4개임 (반으로 나눠서 적용)
+
+
+
+for _ in range(int(input())):
+    n = int(input())
+    a = list(input())
+    print(a)
+    
